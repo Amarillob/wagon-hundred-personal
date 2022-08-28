@@ -41,6 +41,9 @@
 
 
 
+
+
+
 	<!--HOME-->
 	<section class="site-hero" style="background-image: url(images/portada.jpg);" id="section-home" data-stellar-background-ratio="0.5">
 		<div class="container">
@@ -59,9 +62,15 @@
 	<section class="site-section" id="section-about">
 		<div class="container">
 			<div class="row mb-5 align-items-center">
+
+
 				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
-					<img src="images/yop-2.jpeg" alt="Image placeholder" class="img-fluid">
+
+					<img src="images/yop-2.jpeg" alt="Image placeholder" class="img-fluid" style = border-radius:20px;width:500px;opacity:0.75>
+
 				</div>
+
+
 				<div class="col-lg-5 pl-lg-5">
 					<div class="section-heading">
 						<h2><strong>About</strong></h2>
@@ -393,31 +402,121 @@
 
 	<!--CONTACTO -->	
 	<section class="site-section" id="section-contact">
+		
 		<div class="container">
 			<div class="row">
+
+
 				<div class="col-md-12 mb-5">
 					<div class="section-heading text-center">
 						<h2><strong>Contacto</strong></h2>
 					</div>
 				</div>
 
+
 				<div class="col-md-7 mb-5 mb-md-0">
-					<form action="" class="site-form">
+
+
+				
+					<form method="POST" action="https://formspree.io/f/xayknlzd" data-toggle="validator">
 						<h3 class="mb-5">Escribime</h3>
+						<div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
+			  
+
+						  <div class="form-group col-lg-6">
+							<input class="form-control" type="text" name="username" id="username" placeholder="Nombre"
+							  required>
+							<div class="help-block with-errors"></div>
+						  </div>
+			  
+			  
+						  <div class="form-group col-lg-6">
+							<input class="form-control" type="email" id="email" name="email" placeholder="Gmail" required>
+							<div class="help-block with-errors"></div>
+						  </div>
+			  
+			  
+						  <div class="form-group col-lg-12">
+							<textarea class="form-control" name="message" id="message" rows="12"
+							  placeholder="Mensaje"></textarea>
+							<div class="help-block with-errors"></div>
+						  </div>
+			  
+			  
+						  <div class="form-group col-lg-12 sub-button">
+							<button class="submit form-control hvr-icon-push" type="submit" value="send"> Enviar </button>
+						  </div>
+			  
+						  
+						</div>
+			  	  
+					</form>
+			  
+			  
+			  
+
+
+
+
+<!-- Default
+
+					<form action="" class="site-form">
+
+						<h3 class="mb-5">Escribime</h3>
+
+
+
 						<div class="form-group">
 							<input type="text" class="form-control px-3 py-4" placeholder="Nombre">
 						</div>
+
+
 						<div class="form-group">
 							<input type="email" class="form-control px-3 py-4" placeholder="Gmail">
 						</div>
+
+
 						<div class="form-group mb-5">
 							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Mensaje"></textarea>
 						</div>
+
+
 						<div class="form-group">
 							<input type="submit" class="btn btn-primary  px-4 py-3" value="Enviar">
 						</div>
+
+
 					</form>
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				</div>
+
+
 				<div class="col-md-5 pl-md-5">
 					<h3 class="mb-5">Detalles</h3>
 					<ul class="site-contact-details">
@@ -433,35 +532,12 @@
 						</li>
 					</ul>
 				</div>
+
+
 			</div>
 		</div>
+	
 	</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
